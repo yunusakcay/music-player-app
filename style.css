@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,47 +6,47 @@ body{
     background-color: #BBE2EC;
 }
 
-.container{
+.container {
     width: 500px;
 }
 
-.card{
+.card {
     background-color: #9BB0C1;
 }
 
 .btn-primary,
-.bg-primary{
+.bg-primary {
     background-color: #51829B !important;
 }
 
-.volume-container i{
+.volume-container i {
     color: #51829B;
 }
 
 #progress .times,
-.card-footer{
+.card-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.volume-container{
+.volume-container {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.volume-container span{
+.volume-container span {
     width: 30px;
 }
 
-.list-group .list-group-item{
+.list-group .list-group-item {
     cursor: pointer;
     background-color: #9BB0C1;
 }
 
-li.playing{
+li.playing {
     background-color: aqua;
     color: #fff;
 }

@@ -1,6 +1,6 @@
-class MusicPlayer{
-  constructor(musicList){
-    this.musicList = musicList;  
+class MusicPlayer {
+  constructor(musicList) {
+    this.musicList = musicList;
     this.index = 0;
   }
 
@@ -8,22 +8,22 @@ class MusicPlayer{
     return this.musicList[this.index]
   }
 
-  next(){
-    
-    if(this.index + 1 == this.musicList.length){
-        this.index = 0;          
-    }else{
+  next() {
+
+    if (this.index + 1 == this.musicList.length) {
+      this.index = 0;
+    } else {
       this.index++;
     }
   }
 
-  previous(){
-    if(this.index != 0){
+  previous() {
+    if (this.index != 0) {
       this.index--;
-    }else{
+    } else {
       this.index = this.musicList.length - 1;
     }
   }
-  
+
 }
 
